@@ -1,0 +1,97 @@
+.ticketJobItem {
+  margin-bottom: 20px;
+  padding: 10px;
+  
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ticketJobItem.error {
+  background-color: #f8d7da;
+}
+
+.ticketJobItem.finished {
+  background-color: #d4edda;
+}
+
+.ticketJobItem.pending {
+  background-color: #fff3cd;
+}
+
+.detailsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.detailsRow {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  gap:10px;
+  
+}
+
+.detailsPair {
+  flex: 1 1 22%; /* Four columns in a row */
+  min-width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.detailsPair dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stepsContainer {
+  margin-top: 10px;
+}
+
+.stepsWrapper {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.stepItem {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  text-align: center;
+}
+
+.stepItem.error {
+  background-color: #f8d7da;
+}
+
+.stepItem.finished {
+  background-color: #d4edda;
+}
+
+.stepItem.pending {
+  background-color: #fff3cd;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepEmoji {
+  font-size: 24px;
+}
+
+.stepType {
+  font-size: 10px;
+  color: #666;
+  margin-top: 5px;
+}

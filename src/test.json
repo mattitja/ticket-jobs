@@ -1,0 +1,77 @@
+{
+  "ticketJobs": [
+    {
+      "id": "1",
+      "state": "ERROR",
+      "createdAt": "2024-07-31T14:37:18.87172Z",
+      "startedAt": "2024-07-31T14:37:18.914652Z",
+      "failedAt": "2024-07-31T14:37:19.4196Z",
+      "steps": [
+        {
+          "id": "1",
+          "state": "FINISHED",
+          "type": "GET_ACTIVE_TICKET_ORDERS",
+          "startedAt": "2024-07-31T14:37:19.036892Z",
+          "finishedAt": "2024-07-31T14:37:19.330438Z"
+        },
+        {
+          "id": "2",
+          "state": "FINISHED",
+          "type": "CAN_CUSTOMER_ORDER",
+          "startedAt": "2024-07-31T14:37:19.339417Z",
+          "finishedAt": "2024-07-31T14:37:19.342371Z"
+        },
+        {
+          "id": "3",
+          "state": "ERROR",
+          "type": "GET_CUSTOMER_PROFILE",
+          "startedAt": "2024-07-31T14:37:19.346798Z",
+          "failedAt": "2024-07-31T14:37:19.413588Z",
+          "failureReason": ""
+        },
+        {
+          "id": "4",
+          "state": "PENDING",
+          "type": "CREATE_TICKET_AT_MSP"
+        },
+        {
+          "id": "5",
+          "state": "PENDING",
+          "type": "CREATE_BILLING_ORDER"
+        },
+        {
+          "id": "6",
+          "state": "PENDING",
+          "type": "CREATE_MOSAIC_TICKET"
+        },
+        {
+          "id": "7",
+          "state": "PENDING",
+          "type": "CAPTURE_PAYMENT"
+        },
+        {
+          "id": "8",
+          "state": "PENDING",
+          "type": "SET_TICKET_AVAILABLE"
+        },
+        {
+          "id": "9",
+          "state": "PENDING",
+          "type": "SAVE_TICKET_NUMBER"
+        },
+        {
+          "id": "10",
+          "state": "PENDING",
+          "type": "GET_NEW_TICKET_ORDER"
+        },
+        {
+          "id": "11",
+          "state": "PENDING",
+          "type": "SEND_DEBT_DATA_EVENT"
+        }
+      ],
+      "type": "NON_SUBSCRIPTION",
+      "customerNumber": "INVALID_USER"
+    }
+  ]
+}
